@@ -36,13 +36,13 @@ namespace AbstractFactory
             IColor red = colorFactory.CreateColor("red");
 
             // verify that the abstract colors and shapes display the correct output
-            rectangle.Draw();
-
             green.Colorize();
 
-            square.Draw();
+            rectangle.Draw();
 
             red.Colorize();
+
+            square.Draw();
 
             // view console output of the program
             Console.Read();

@@ -10,6 +10,7 @@ namespace AbstractFactory.Colors
     {
         public void Colorize()
         {
+            Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine("I am the color Red!");
         }
     }
